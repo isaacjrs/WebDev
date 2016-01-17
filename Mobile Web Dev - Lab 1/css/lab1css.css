@@ -1,0 +1,117 @@
+/* Fonts */
+* {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-family: 'Playball', sans-serif;
+	font-family: 'Poiret One', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Initial Google Maps CSS */
+html, body, #map-canvas {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Gmap div */
+#map-canvas {
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	left: 0;
+	top: 0;
+	box-shadow: rgba(0,0,0,0.8) 0px 0px 15px;
+}
+
+/* Buttons */
+.buttons {
+	position: absolute;
+	height: 20%;
+	width: 100%;
+	left: 0;
+	top: 80%;
+}
+.buttons > * {
+	position: absolute;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 3px;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: Arial;
+	border: none;
+	border-radius: 5px;
+	background: rgba(10,120,250,0.4);
+}
+.buttons > *:hover {
+	background: rgba(10,120,250,0.7);
+	box-shadow: rgba(0,0,0,0.7) 0px 0px 5px;
+}
+#zoomIn,
+#zoomOut {
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+}
+#zoomIn {
+	left: 5%;
+	top: 10%;
+}
+#zoomOut {
+	left: 5%;
+	bottom: 10%;
+}
+#moveRight {
+	left: 88%;
+	top: 35%;
+}
+#moveLeft {
+	left: 72%;
+	top: 35%;
+}
+#moveUp {
+	left: 80%;
+	top: 10%;
+}
+#moveDown {
+	left: 80%;
+	top: 60%;
+}
+#isaacPlace,
+#alexPlace {
+	width: 33%;
+	left: 20%;
+}
+#isaacPlace {
+	top: 18%;
+}
+#alexPlace {
+	bottom: 18%;
+}
+
+/* Front */
+.front {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.9);
+	cursor: pointer;
+}
+.front p {
+	width: 100%;
+	text-align: center;
+	color: #7ae;
+	text-shadow: 0px 0px 10px;
+	margin: 0;
+}
+.front p:nth-of-type(1) {
+	font-size: 60px;
+	margin-top: 155px;
+}
+.front p:nth-of-type(2) {
+	font-size: 23px;
+	font-style: italic;
+}
+
